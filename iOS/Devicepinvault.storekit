@@ -1,0 +1,42 @@
+{
+  "identifier" : "Devicepinvault",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "DEVICEPINVAULTGROUP",
+      "localizations" : [],
+      "name" : "Devicepinvault Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "devicepinvaultsub001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Face ID-locked vault and password-change reminders",
+              "displayName" : "Devicepinvault Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.devicepinvault.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Devicepinvault Pro Monthly",
+          "subscriptionGroupID" : "DEVICEPINVAULTGROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
